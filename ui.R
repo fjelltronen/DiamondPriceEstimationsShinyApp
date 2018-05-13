@@ -22,5 +22,6 @@ shinyUI(fluidPage(
     )
   ),
   
-  p("The R code used for this application can be found ", a("here",href=""), ".")
+  p("[The R code used for this application can be found ", 
+    a("here",href="https://github.com/fjelltronen/DiamondPriceEstimationsShinyApp"), ".]")
 ))
