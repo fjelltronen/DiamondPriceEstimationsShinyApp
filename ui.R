@@ -17,7 +17,7 @@ shinyUI(fluidPage(
     
     # Show the estimated price of this diamond
     mainPanel(
-      p("Estimated diamond value is ", strong(textOutput("p",inline = TRUE)), " USD,"),
+      p("Estimated diamond value is ", strong(textOutput("p",inline = TRUE)), " USD."),
       plotOutput("plot")
     )
   ),
